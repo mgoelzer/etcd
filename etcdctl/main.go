@@ -24,6 +24,7 @@ import (
 )
 
 func main() {
+  x := "BREAKING CHANGE... WILL TRAVIS SEE IT?"
 	app := cli.NewApp()
 	app.Name = "etcdctl"
 	app.Version = version.Version
